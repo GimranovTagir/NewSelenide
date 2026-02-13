@@ -9,6 +9,7 @@ public class LoginPage {
     final SelenideElement passwordInput = $x("//*[@name='user_auth[password]']");
     final SelenideElement signInBtn = $x("//*[@type='submit']");
 
+
     public void openPage() {
         open("login");
     }

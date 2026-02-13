@@ -9,5 +9,6 @@ public class LoginTest extends BaseTest {
         loginPage.login();
         projectsPage.pageOpen();
         projectsPage.checkBtnColor();
+        projectsPage.checkProjectExist();
     }
 }
